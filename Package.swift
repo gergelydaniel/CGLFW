@@ -7,6 +7,7 @@ let package = Package(
     name: "CGLFW",
     pkgConfig: "glfw3",
     providers: [
-        .brew(["glfw"])
+        .brew(["glfw"]),
+        .apt(["libglfw-dev"])
     ]
 )
