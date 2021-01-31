@@ -3,3 +3,9 @@ module CGLFW [system] {
     link "glfw"
     export *
 }
+
+module CGL [system] {
+    //header "shim.h"
+    link "GL"
+    export *
+}
